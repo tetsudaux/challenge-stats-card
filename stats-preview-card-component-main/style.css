@@ -16,24 +16,29 @@ body {
 .card {
     width: 75vw;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 20px auto;
     background-color: #1C1938;
     border-radius: 20px;
-    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .card-image {
     border-radius: 20px 20px 0 0;
-    overflow: hidden;
+    background-image: url('./images/image-header-mobile.jpg');
+    background-color: purple;
+    background-size: cover;
+    height: 25rem;
+    
 }
-.card-image img {
-    width: 100%;
-    filter: url('#purple-sepia');
+
+.card-content {
+   
 }
+
 .card-text {
     text-align: center;
     padding: 20px;
@@ -54,7 +59,8 @@ p {
 }
 
 .card-text-description {
-    margin: 10px;
+    line-height: 2.5rem;
+
     color: #87859D;
 }
 
@@ -67,8 +73,11 @@ p {
 .card-stats-number {
     font-size: 3rem;
 }
-.card-stats-title {
+.card-stats-text {
     color: #87859D;
     text-transform: uppercase;
     font-size: 1.2rem;
+}
+.card-stats-item {
+    margin: 10px 0;
 }

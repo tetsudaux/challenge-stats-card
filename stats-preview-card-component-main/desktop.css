@@ -1,0 +1,36 @@
+
+.card {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    width: 50%;
+    order: 1;
+    padding: 20px 0 40px 20px;
+}
+.card-text {
+    width: 75%;
+    padding: 10px;
+   
+}
+.card-image {
+    background: rgba(191, 85, 236, 0.5), url('./images/image-header-desktop.jpg');
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    height: auto;
+    order: 2;
+}
+.card-stats {
+    flex-direction: row;
+
+}
+.card-stats-item {
+    margin: 0 10px;
+}
+.card-text {
+    text-align: start;
+}
+.card-stats {
+    text-align: start;
+}
